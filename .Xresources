@@ -1,0 +1,40 @@
+! render setting for cairo -> pango -> gtk
+! Xft.dpi: 96
+! Xft.autohint: 0
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
+! DWM solarized-osaka colorscheme
+dwm.normbordercolor: #1d202f;
+dwm.normbgcolor: #7dcfff;
+dwm.normfgcolor: #c0caf5;
+dwm.selbordercolor:  #9ece6a;
+dwm.selbgcolor: #1d202f;
+dwm.selfgcolor: #1d202f;
+
+! TokyoNight colors for Xresources
+
+*background: #24283b
+*foreground: #c0caf5
+
+*color0: #1d202f
+*color1: #f7768e
+*color2: #9ece6a
+*color3: #e0af68
+*color4: #7aa2f7
+*color5: #bb9af7
+*color6: #7dcfff
+*color7: #a9b1d6
+
+*color8: #414868
+*color9: #f7768e
+*color10: #9ece6a
+*color11: #e0af68
+*color12: #7aa2f7
+*color13: #bb9af7
+*color14: #7dcfff
+*color15: #c0caf5
+
