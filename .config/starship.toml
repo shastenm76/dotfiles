@@ -33,7 +33,7 @@ format = '[[ $symbol $branch ](fg:#7aa2f7 bg:#1d202f)]($style)'
 
 [git_status]
 style = "bg:#4141868"
-format = '[[($all_status$ahead_behind )](fg:#7aa2f7 bg:#4141868)]($style)'
+format = '[[($all_status$ahead_behind )](fg:#7aa2f7 bg:#1d202f)]($style)'
 
 [nodejs]
 symbol = ""
