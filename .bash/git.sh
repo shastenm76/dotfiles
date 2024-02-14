@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 #git
-alias gi="git init"
+alias gi="git init --inital-branch=main"
 alias gb="git branch"
 alias gcb="git checkout -b"
 alias gh="git checkout"

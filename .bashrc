@@ -8,6 +8,9 @@ export HISTCONTROL=ignoredups:erasedups # no duplicate entries
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 
+# Set Editor
+export EDITOR="nvim"
+
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 

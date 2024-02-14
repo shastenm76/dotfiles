@@ -22,7 +22,7 @@ alias tl="tmux ls"
 
 # Tmuxifier
 alias tmd="tmuxifier delete"
-alias tmn="tmuxifier new"
+alias tmn="tmuxifier new-window"
 alias tms="tmuxifier switch"
 alias tli="tmuxifier list"
  
