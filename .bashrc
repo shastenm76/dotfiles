@@ -1,4 +1,4 @@
-#!bin/bash
+ # #!bin/bash
 
 ### EXPORT
 export TERM="xterm-256color"            # getting proper colors
@@ -27,7 +27,7 @@ export EDITOR="nvim"
 [ -f ~/.bash/sc.sh ] && source ~/.bash/sc.sh
 [ -f ~/.bash/git.sh ] && source ~/.bash/git.sh
 # [ -f ~/.bash/ac.sh ] && source ~/.bash/ac.sh
-[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+# [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
 #Use neovim for vim if present
 command -v nvim >/dev/null && alias vim="nvim" vimdiff="nvim -d"
@@ -40,7 +40,6 @@ export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 . "$HOME/.cargo/env"
 
 # tmux 
-# command -v tmux >/dev/null 2>&1 || { sudo apt-get update && sudo apt-get install tmux -y; } && tmux
-eval "$(zoxide init bash)"
+# command -v tmux >/dev/null 2>&1 || { sudo apt-get update && sudo apt-get install tmux -y; } && tmux eval "$(zoxide init bash)"
 eval "$(starship init bash)"
-[[ -s /home/shasten/.autojump/etc/profile.d/autojump.sh ]] && source /home/shasten/.autojump/etc/profile.d/autojump.sh
+# [[ -s /home/shasten/.autojump/etc/profile.d/autojump.sh ]] && source /home/shasten/.autojump/etc/profile.d/autojump.sh

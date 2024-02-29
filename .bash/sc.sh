@@ -11,7 +11,6 @@ alias rch="sudo rm -rf config.h"
 # Changing "ls" to "exa"
 alias ls='exa -al --color=always --group-directories-first' # my preferred listing
 alias la='exa -a --color=always --group-directories-first'  # all files and dirs
-alias l.='exa -a | egrep "^\."'
 
 # Tmux 
 alias x="exit"
@@ -31,7 +30,7 @@ alias tli="tmuxifier list"
 # Top Ten | fuzzy finder python | fuzzy finder for tmux
 alias bh="sm-bash-history"
 alias fp="sm-fzf-python"
-alias ft="sm-files"
+alias fl="sm-files"
 alias lt="sm-bash-lt"
 alias pd="sm-past-dir"
 
